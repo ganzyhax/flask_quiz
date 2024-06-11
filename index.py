@@ -5,14 +5,27 @@ app = Flask(__name__)
 # Define your quiz questions and answers
 quiz_questions = [
     {
-        "question": "What is the capital of France?",
-        "options": ["Paris", "Berlin", "London", "Madrid"],
-        "answer": "Paris"
+        "question": '''useEffect(() => {
+        fetch('https://api.example.com/data')
+            .then(response => response.json())
+            .then(data => setData(data));
+    }, []);
+
+    return (
+        <div>
+            {data ? JSON.stringify(data) : 'Loading...'}
+        </div>
+    );
+}
+export default DataFetcher;
+''',
+        "options": ["a) useEffect без пустого массива", "b) useEffect с пустым массивом", "c) useEffect с объектом", "d) useEffect с функцией"],
+        "answer": "c) useEffect с объектом"
     },
     {
-        "question": "Which planet is known as the Red Planet?",
-        "options": ["Mars", "Venus", "Jupiter", "Saturn"],
-        "answer": "Mars"
+        "question": "Какое из следующих утверждений о hook useEffect верно?",
+        "options": ["a) useEffect вызывается до рендера компонента", "b) useEffect вызывается после каждого рендера компонента", "c) useEffect нельзя использовать в функциональных компонентах", "d) useEffect синхронен по умолчанию"],
+        "answer": "d) useEffect синхронен по умолчанию"
     },
     # Add more questions here
 ]
