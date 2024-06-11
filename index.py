@@ -28,7 +28,7 @@ export default DataFetcher;
         "answer": "d) useState"
     },
     {
-        "question": "Какой из следующих примеров правильно выполняет GET-запрос к серверу с использованием useEffect?
+        "question": '''Какой из следующих примеров правильно выполняет GET-запрос к серверу с использованием useEffect?
 
 javascript
 Копировать код
@@ -49,18 +49,18 @@ useEffect(() => {
     );
 }
 
-export default DataFetcher;",
+export default DataFetcher;''',
         "options": ["a) useEffect без пустого массива", "b) useEffect с пустым массивом", "c) useEffect с объектом", "d) useEffect с функцией"],
         "answer": "b) useEffect с пустым массивом"
     },
     {
-        "question": "Как вызвать функцию только один раз после монтирования компонента с использованием useEffect?
+        "question": '''Как вызвать функцию только один раз после монтирования компонента с использованием useEffect?
 
 javascript
 Копировать код
 useEffect(() => {
     // Ваш код здесь
-}, []);",
+}, []);''',
         "options": ["a) Передать пустой массив вторым аргументом в useEffect", "b) Не передавать второй аргумент в useEffect", "c) Передать null вторым аргументом в useEffect", "d) Передать true вторым аргументом в useEffect"],
         "answer": "a) Передать пустой массив вторым аргументом в useEffect"
     },
@@ -129,10 +129,8 @@ print(x)",
         "answer": "a) O(1)"
     },
     {
-        "question": "Напишите функцию, которая принимает строку и возвращает словарь, где ключи — это символы строки, а значения — количество их вхождений.
+        "question": '''Напишите функцию, которая принимает строку и возвращает словарь, где ключи — это символы строки, а значения — количество их вхождений.
 
-python
-Копировать код
 def char_count(s):
     # Ваш код здесь",
         "options": ["a) return {char: s.count(char) for char in s}", "b) return {char: count for char, count in s}", "c) return {s.count(char): char for char in s}", "d) return {char: s.count(char) for char in set(s)}"],
@@ -144,7 +142,7 @@ def char_count(s):
 python
 Копировать код
 x = 5
-x *= 3",
+x *= 3''',
         "options": ["a) 8", "b) 15", "c) 5:, "d) 2"],
         "answer": "b) 15"
     },
