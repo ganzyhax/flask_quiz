@@ -29,9 +29,6 @@ export default DataFetcher;
     },
     {
         "question": '''Какой из следующих примеров правильно выполняет GET-запрос к серверу с использованием useEffect?
-
-javascript
-Копировать код
 import React, { useState, useEffect } from 'react';
 
 function DataFetcher() {
@@ -50,6 +47,7 @@ useEffect(() => {
 }
 
 export default DataFetcher;''',
+
         "options": ["a) useEffect без пустого массива", "b) useEffect с пустым массивом", "c) useEffect с объектом", "d) useEffect с функцией"],
         "answer": "b) useEffect с пустым массивом"
     },
@@ -85,8 +83,7 @@ useEffect(() => {
     },
     {
         "question": '''Что выведет следующий код?,
-        python
-        Копировать код
+      
         print(type({}))''',
         "options": ["a) <class 'list'>", "b) <class 'set'>", "c) <class 'dict'>", "d) <class 'tuple'>"],
         "answer": "c) <class 'dict'>"
@@ -94,13 +91,12 @@ useEffect(() => {
     {
         "question": '''Какой результат выполнения следующего list comprehension?, python
 Копировать код
-[x**2 for x in range(5)]''',
+[x**2 for x in range(5)]",
         "options": ["a) [1, 4, 9, 16, 25]","b) [0, 1, 4, 9, 16]", "c) [0, 1, 4, 9, 16, 25]", "d) [1, 4, 9, 16]"],
         "answer": "b) [0, 1, 4, 9, 16]"
     },
-    "question": '''Напишите функцию, которая принимает список чисел и возвращает новый список, содержащий только четные числа из исходного списка.
-    python
-Копировать код
+    "question": "Напишите функцию, которая принимает список чисел и возвращает новый список, содержащий только четные числа из исходного списка.
+  
 def filter_even_numbers(numbers):
 # Ваш код здесь''',
         "options": ["a) return [x for x in numbers if x % 2 == 0]", "b) return [x if x % 2 == 0 for x in numbers]", "c) return [x in numbers if x % 2 == 0]", "d) return [numbers for x in numbers if x % 2 == 0]"],
@@ -132,18 +128,15 @@ print(x)''',
         "question": '''Напишите функцию, которая принимает строку и возвращает словарь, где ключи — это символы строки, а значения — количество их вхождений.
 
 def char_count(s):
-    # Ваш код здесь",
+    # Ваш код здесь''',
         "options": ["a) return {char: s.count(char) for char in s}", "b) return {char: count for char, count in s}", "c) return {s.count(char): char for char in s}", "d) return {char: s.count(char) for char in set(s)}"],
         "answer": "d) return {char: s.count(char) for char in set(s)}"
     },
     {
         "question": '''Какое значение будет у переменной x после выполнения следующего кода?
-
-python
-Копировать код
 x = 5
 x *= 3''',
-        "options": ["a) 8", "b) 15", "c) 5:, "d) 2"],
+        "options": ["a) 8", "b) 15", "c) 5", "d) 2"],
         "answer": "b) 15"
     },
     {
