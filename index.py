@@ -162,11 +162,14 @@ def quiz():
 @app.route('/result', methods=['POST'])
 def result():
     score = 0
+    bad_score =0
     answers = request.form
     for question in quiz_questions:
         if answers.get(question["question"]) == question["answer"]:
             score += 1
-    return render_template('result.html', score=score)
+        else:
+            bad_score+=1
+    return render_template('result.html', score=score,bad_score=bad_score)
 
 if __name__ == '__main__':
     app.run(debug=True)
