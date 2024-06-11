@@ -144,11 +144,6 @@ x *= 3''',
         "options": ["a) try", "b) catch", "c) except", "d) finally"],
         "answer": "c) except"
     },
-    {
-        "question": "Какое ключевое слово используется для обработки исключений в Python?",
-        "options": ["a) try", "b) catch", "c) except", "d) finally"],
-        "answer": "c) except"
-    },
 
     
 
