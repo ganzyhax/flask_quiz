@@ -84,37 +84,37 @@ useEffect(() => {
         "answer": "d) useEffect синхронен по умолчанию"
     },
     {
-        "question": "Что выведет следующий код?,
+        "question": '''Что выведет следующий код?,
         python
         Копировать код
-        print(type({}))",
+        print(type({}))''',
         "options": ["a) <class 'list'>", "b) <class 'set'>", "c) <class 'dict'>", "d) <class 'tuple'>"],
         "answer": "c) <class 'dict'>"
     },
     {
-        "question": "Какой результат выполнения следующего list comprehension?, python
+        "question": '''Какой результат выполнения следующего list comprehension?, python
 Копировать код
-[x**2 for x in range(5)]",
+[x**2 for x in range(5)]''',
         "options": ["a) [1, 4, 9, 16, 25]","b) [0, 1, 4, 9, 16]", "c) [0, 1, 4, 9, 16, 25]", "d) [1, 4, 9, 16]"],
         "answer": "b) [0, 1, 4, 9, 16]"
     },
-    "question": "Напишите функцию, которая принимает список чисел и возвращает новый список, содержащий только четные числа из исходного списка.
+    "question": '''Напишите функцию, которая принимает список чисел и возвращает новый список, содержащий только четные числа из исходного списка.
     python
 Копировать код
 def filter_even_numbers(numbers):
-# Ваш код здесь",
+# Ваш код здесь''',
         "options": ["a) return [x for x in numbers if x % 2 == 0]", "b) return [x if x % 2 == 0 for x in numbers]", "c) return [x in numbers if x % 2 == 0]", "d) return [numbers for x in numbers if x % 2 == 0]"],
         "answer": "a) return [x for x in numbers if x % 2 == 0]"
     },
     {
-        "question": "Какой результат выполнения следующего кода?
+        "question": '''Какой результат выполнения следующего кода?
 
 python
 Копировать код
 x = [1, 2, 3]
 y = x
 y.append(4)
-print(x)",
+print(x)''',
         "options": ["a) [1, 2, 3]", "b) [1, 2, 3, 4]", "c) [1, 2, 4]", "d) Ошибка времени выполнения (runtime error)"],
         "answer": "b) [1, 2, 3, 4]"
     },
@@ -137,7 +137,7 @@ def char_count(s):
         "answer": "d) return {char: s.count(char) for char in set(s)}"
     },
     {
-        "question": "Какое значение будет у переменной x после выполнения следующего кода?
+        "question": '''Какое значение будет у переменной x после выполнения следующего кода?
 
 python
 Копировать код
