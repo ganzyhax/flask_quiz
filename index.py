@@ -150,35 +150,7 @@ x *= 3''',
         "answer": "c) except"
     },
 
-    {
-        "question": "Какой SQL оператор используется для выбора данных из базы данных?",
-        "options": ["a) SELECT", "b) GET", "c) FETCH", "d) RETRIEVE"],
-        "answer": "a) SELECT"
-    },
-    {
-        "question": "Какое ключевое слово используется для сортировки результатов в SQL?",
-        "options": ["a) SORT", "b) ORDER BY", "c) ARRANGE BY", "d) SORT BY"],
-        "answer": "b) ORDER BY"
-    },
-    {
-        "question": "Какое SQL выражение используется для обновления данных в базе данных?",
-        "options": ["a) MODIFY", "b) CHANGE", "c) UPDATE", "d) ALTER"],
-        "answer": "c) UPDATE"
-    },
-    {
-        "question": "Какое ключевое слово используется для объединения двух таблиц по общему полю?",
-        "options": ["a) JOIN", "b) UNION", "c) MERGE", "d) CONNECT"],
-        "answer": "a) JOIN"
-    },
-    {
-        "question": '''Что делает следующий SQL запрос?
-
-sql
-Копировать код
-SELECT COUNT(*) FROM users;''',
-        "options": ["a) Выбирает всех пользователей из таблицы", "b) Считает количество записей в таблице users", "c) Обновляет количество пользователей", "d) Удаляет пользователей"],
-        "answer": "b) Считает количество записей в таблице users"
-    },
+    
 
     # Add more questions here
 ]
